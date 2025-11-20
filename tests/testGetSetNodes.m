@@ -138,7 +138,7 @@ index=2;
 while (tstep>0)
     t=d.runHydraulicAnalysis;
     D=[D; d.getNodeActualDemand(index)];
-    H=[H; d.getNodeHydaulicHead(index)];
+    H=[H; d.getNodeHydraulicHead(index)];
     P=[P; d.getNodePressure(index)];
     Q=[Q; d.getNodeActualQuality(index)];
     T=[T; t];
